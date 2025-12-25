@@ -1,14 +1,3 @@
-=== Latency Global - Uptime Monitoring ===
-Contributors: latencyglobal
-Donate link: https://latency.global
-Tags: uptime, monitoring, latency, performance, ssl, website monitoring, downtime alerts
-Requires at least: 5.8
-Tested up to: 6.4
-Requires PHP: 7.4
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
 Monitor your WordPress site's uptime and performance from 110+ global locations. Get instant alerts when your site goes down.
 
 == Description ==
