@@ -1,10 +1,10 @@
 Monitor your WordPress site's uptime and performance from 110+ global locations. Get instant alerts when your site goes down.
 
-== Description ==
+**Description**
 
 **Latency Global** provides enterprise-grade uptime monitoring for your WordPress site. Monitor your website from 110+ locations worldwide and get instant notifications when problems occur.
 
-= Key Features =
+**Key Features**
 
 * 🌍 **Global Monitoring** - Monitor from 110+ locations across North America, Europe, Asia, South America, and Oceania
 * ⚡ **Fast Check Intervals** - Check your site every 10 seconds to 1 minute depending on your plan
@@ -14,7 +14,7 @@ Monitor your WordPress site's uptime and performance from 110+ global locations.
 * 📱 **Dashboard Widget** - See your site status right in WordPress admin
 * 🏷️ **Uptime Badge** - Display your uptime on your site with shortcodes
 
-= How It Works =
+**How It Works**
 
 1. Sign up for a Latency Global account at [latency.global](https://latency.global)
 2. Install and activate this plugin
@@ -22,7 +22,7 @@ Monitor your WordPress site's uptime and performance from 110+ global locations.
 4. Click "Create Monitor" to start monitoring your site
 5. View stats in your WordPress dashboard or the full Latency Global dashboard
 
-= Shortcodes =
+**Shortcodes**
 
 Display uptime information anywhere on your site:
 
@@ -32,7 +32,7 @@ Display uptime information anywhere on your site:
 * `[latency_status]` - Online/offline indicator
 * `[latency_stats]` - Full statistics display
 
-= Why Choose Latency Global? =
+**Why Choose Latency Global?**
 
 Unlike other monitoring services, Latency Global offers:
 
@@ -42,13 +42,13 @@ Unlike other monitoring services, Latency Global offers:
 * **Affordable pricing** - Plans starting at just $5/month
 * **Powerful API** - Full programmatic access to all features
 
-= Requirements =
+**Requirements**
 
 * WordPress 5.8 or higher
 * PHP 7.4 or higher
 * A Latency Global account (plans start at $5/month)
 
-= Privacy =
+**Privacy**
 
 This plugin connects to the Latency Global API (latency.global) to:
 
@@ -58,9 +58,9 @@ This plugin connects to the Latency Global API (latency.global) to:
 
 No personal data from your site visitors is collected or transmitted. Only your site URL and monitoring data is stored on Latency Global servers.
 
-== Installation ==
+**Installation**
 
-= Automatic Installation =
+**Automatic Installation**
 
 1. Go to Plugins → Add New in your WordPress admin
 2. Search for "Latency Global"
@@ -68,7 +68,7 @@ No personal data from your site visitors is collected or transmitted. Only your 
 4. Go to Latency Global in the admin menu
 5. Enter your API key and create a monitor
 
-= Manual Installation =
+**Manual Installation**
 
 1. Download the plugin zip file
 2. Go to Plugins → Add New → Upload Plugin
@@ -76,7 +76,7 @@ No personal data from your site visitors is collected or transmitted. Only your 
 4. Activate the plugin
 5. Go to Latency Global in the admin menu to configure
 
-= Getting Your API Key =
+**Getting Your API Key**
 
 1. Sign up at [latency.global](https://latency.global)
 2. Go to your dashboard → API section
@@ -84,28 +84,28 @@ No personal data from your site visitors is collected or transmitted. Only your 
 4. Copy the token (it starts with `lat_`)
 5. Paste it in the plugin settings
 
-== Frequently Asked Questions ==
+**Frequently Asked Questions**
 
-= Do I need a Latency Global account? =
+**Do I need a Latency Global account?**
 
 Yes, you need an account at [latency.global](https://latency.global). Plans start at $5/month and include all features.
 
-= Is there a free trial? =
+**Is there a free trial?**
 
 We don't offer free trials, but our Starter plan at $5/month is affordable for testing. We offer a money-back guarantee if you're not satisfied.
 
-= How often does it check my site? =
+**How often does it check my site?**
 
 Check intervals depend on your plan:
 * Starter: Every 60 seconds
 * Pro: Every 30 seconds
 * Business: Every 10 seconds
 
-= Can I monitor multiple WordPress sites? =
+**Can I monitor multiple WordPress sites?**
 
 Yes! Each plan includes a number of monitors. Use the same API key across all your WordPress sites, or manage everything from the Latency Global dashboard.
 
-= What locations can I monitor from? =
+**What locations can I monitor from?**
 
 We have 110+ locations across:
 * North America (US, Canada)
@@ -114,7 +114,7 @@ We have 110+ locations across:
 * South America (Brazil)
 * Oceania (Australia)
 
-= How do I get alerts? =
+**How do I get alerts?**
 
 Configure alerts in your Latency Global dashboard. We support:
 * Email notifications
@@ -122,11 +122,11 @@ Configure alerts in your Latency Global dashboard. We support:
 * Custom webhooks
 * PagerDuty (Business+)
 
-= Does this plugin slow down my site? =
+**Does this plugin slow down my site?**
 
 No. The plugin only runs in the WordPress admin area. No JavaScript or API calls are made on the frontend (unless you use the uptime badge shortcode, which uses cached data).
 
-== Screenshots ==
+**Screenshots**
 
 1. Plugin settings page with API configuration
 2. Monitor dashboard showing uptime and latency stats
@@ -134,9 +134,10 @@ No. The plugin only runs in the WordPress admin area. No JavaScript or API calls
 4. Network tools for diagnostics
 5. Uptime badge shortcode examples
 
-== Changelog ==
 
-= 1.0.0 =
+**Changelog**
+
+**1.0.0**
 * Initial release
 * Monitor management (create, view, delete)
 * Dashboard widget with real-time stats
@@ -144,24 +145,24 @@ No. The plugin only runs in the WordPress admin area. No JavaScript or API calls
 * Network diagnostic tools (ping, HTTP, DNS)
 * Admin bar status indicator
 
-== Upgrade Notice ==
+**Upgrade Notice**
 
-= 1.0.0 =
+**1.0.0**
 Initial release of the Latency Global WordPress plugin.
 
-== Additional Info ==
+**Additional Info**
 
-= Support =
+**Support**
 
 * Documentation: [latency.global](https://latency.global)
 * Support: [latency.global/contact](https://latency.global/contact)
 * GitHub: [github.com/latencyglobal/wordpress-plugin](https://github.com/latencyglobal/wordpress-plugin)
 
-= Contributing =
+**Contributing**
 
 We welcome contributions! Please submit issues and pull requests on our GitHub repository.
 
-= Credits =
+**Credits**
 
 Developed by the Latency Global team. Built with ❤️ for the WordPress community.
 
