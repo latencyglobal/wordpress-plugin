@@ -1,0 +1,262 @@
+# Copyright (C) 2024 Latency Global
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Latency Global 1.0.0\n"
+"Report-Msgid-Bugs-To: https://latency.global/contact\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: latency-global.php
+msgid "Latency Global"
+msgstr ""
+
+#: latency-global.php
+msgid "Unknown"
+msgstr ""
+
+#: latency-global.php
+msgid "Up (%dms)"
+msgstr ""
+
+#: latency-global.php
+msgid "Down"
+msgstr ""
+
+#: latency-global.php
+msgid "Latency Global Status"
+msgstr ""
+
+#: latency-global.php
+msgid "Every Five Minutes"
+msgstr ""
+
+#: includes/class-latency-api.php
+msgid "API key not configured. Please add your Latency Global API key in settings."
+msgstr ""
+
+#: includes/class-latency-api.php
+msgid "API request failed"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Settings"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Tools"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "API Configuration"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Display Settings"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "API Key"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Show Uptime Badge"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Display uptime badge in site footer"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "You can also use the shortcode [latency_uptime] to display the badge anywhere."
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Unauthorized"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Monitor created successfully!"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Failed to create monitor"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "No monitor configured"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "Monitor deleted"
+msgstr ""
+
+#: includes/class-latency-admin.php
+msgid "API key is valid!"
+msgstr ""
+
+#: includes/class-latency-widget.php
+msgid "Latency Global - Site Status"
+msgstr ""
+
+#: includes/class-latency-widget.php
+msgid "No monitor configured."
+msgstr ""
+
+#: includes/class-latency-widget.php
+msgid "Online"
+msgstr ""
+
+#: includes/class-latency-widget.php
+msgid "Offline"
+msgstr ""
+
+#: includes/class-latency-widget.php
+msgid "Uptime"
+msgstr ""
+
+#: includes/class-latency-widget.php
+msgid "Avg Latency"
+msgstr ""
+
+#: includes/class-latency-widget.php
+msgid "Checks (7d)"
+msgstr ""
+
+#: includes/class-latency-widget.php
+msgid "View Dashboard"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Site Monitor"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Refresh"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Name"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "URL"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Type"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Interval"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "seconds"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Uptime (7 days)"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Min Latency"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Max Latency"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Total Checks"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Successful"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Danger Zone"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Remove this monitor from your Latency Global account."
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Delete Monitor"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "No monitor configured for this site yet."
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Create Monitor for This Site"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Quick Links"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Full Dashboard"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Manage API Keys"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Alert Settings"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Network Tools"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Shortcodes"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Display uptime information on your site:"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Uptime badge"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Status indicator"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Full stats display"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Check our documentation or contact support."
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin-page.php
+msgid "Contact Support"
+msgstr ""
+

@@ -1,0 +1,530 @@
+/**
+ * Latency Global - Admin Styles
+ *
+ * @package Latency_Global
+ */
+
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+:root {
+    --latency-primary: #2563eb;
+    --latency-primary-dark: #1d4ed8;
+    --latency-success: #10b981;
+    --latency-success-light: #d1fae5;
+    --latency-warning: #f59e0b;
+    --latency-warning-light: #fef3c7;
+    --latency-danger: #ef4444;
+    --latency-danger-light: #fee2e2;
+    --latency-gray-50: #f9fafb;
+    --latency-gray-100: #f3f4f6;
+    --latency-gray-200: #e5e7eb;
+    --latency-gray-300: #d1d5db;
+    --latency-gray-500: #6b7280;
+    --latency-gray-700: #374151;
+    --latency-gray-900: #111827;
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+.latency-global-admin {
+    max-width: 1400px;
+}
+
+.latency-global-admin h1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.latency-global-admin h1 .dashicons {
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    color: var(--latency-primary);
+}
+
+.latency-admin-container {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 20px;
+}
+
+@media (max-width: 1200px) {
+    .latency-admin-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+.latency-card {
+    background: #fff;
+    border: 1px solid var(--latency-gray-200);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.latency-card h2,
+.latency-card h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--latency-gray-200);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--latency-gray-900);
+}
+
+.latency-card h3 {
+    font-size: 14px;
+}
+
+/* ==========================================================================
+   API Key Field
+   ========================================================================== */
+.latency-api-key-field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.latency-api-key-field input {
+    font-family: monospace;
+}
+
+#latency-api-key-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#latency-api-key-status.valid {
+    background: var(--latency-success-light);
+    color: var(--latency-success);
+}
+
+#latency-api-key-status.invalid {
+    background: var(--latency-danger-light);
+    color: var(--latency-danger);
+}
+
+/* ==========================================================================
+   Monitor Info
+   ========================================================================== */
+.latency-monitor-info {
+    margin-bottom: 20px;
+}
+
+.monitor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.monitor-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.monitor-status .status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+.monitor-status.status-up .status-dot {
+    background: var(--latency-success);
+    box-shadow: 0 0 0 3px var(--latency-success-light);
+}
+
+.monitor-status.status-down .status-dot {
+    background: var(--latency-danger);
+    box-shadow: 0 0 0 3px var(--latency-danger-light);
+}
+
+.monitor-status.status-up .status-text {
+    color: var(--latency-success);
+}
+
+.monitor-status.status-down .status-text {
+    color: var(--latency-danger);
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.monitor-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.monitor-actions .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    line-height: 1.4;
+}
+
+.latency-monitor-details {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.latency-monitor-details th,
+.latency-monitor-details td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--latency-gray-100);
+}
+
+.latency-monitor-details th {
+    width: 120px;
+    color: var(--latency-gray-500);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.latency-monitor-details code {
+    background: var(--latency-gray-100);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* ==========================================================================
+   Stats Grid
+   ========================================================================== */
+.latency-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.latency-stat-box {
+    background: var(--latency-gray-50);
+    border: 1px solid var(--latency-gray-200);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.latency-stat-box .stat-value {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--latency-gray-900);
+    margin-bottom: 4px;
+}
+
+.latency-stat-box .stat-value.good {
+    color: var(--latency-success);
+}
+
+.latency-stat-box .stat-value.warning {
+    color: var(--latency-warning);
+}
+
+.latency-stat-box .stat-value.bad {
+    color: var(--latency-danger);
+}
+
+.latency-stat-box .stat-label {
+    display: block;
+    font-size: 12px;
+    color: var(--latency-gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ==========================================================================
+   No Monitor State
+   ========================================================================== */
+.latency-no-monitor {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.latency-no-monitor p {
+    margin-bottom: 12px;
+}
+
+.latency-no-monitor .button-hero {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    padding: 12px 24px;
+    height: auto;
+}
+
+.latency-no-monitor .button-hero .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+/* ==========================================================================
+   Danger Zone
+   ========================================================================== */
+.latency-danger-zone {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid var(--latency-gray-200);
+}
+
+.latency-danger-zone h4 {
+    margin: 0 0 8px 0;
+    color: var(--latency-danger);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.latency-danger-zone .description {
+    margin-bottom: 12px;
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+.latency-admin-sidebar .latency-card {
+    margin-bottom: 16px;
+}
+
+.latency-quick-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.latency-quick-links li {
+    margin: 0;
+    padding: 0;
+}
+
+.latency-quick-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0;
+    color: var(--latency-gray-700);
+    text-decoration: none;
+    border-bottom: 1px solid var(--latency-gray-100);
+    transition: color 0.15s;
+}
+
+.latency-quick-links li:last-child a {
+    border-bottom: none;
+}
+
+.latency-quick-links a:hover {
+    color: var(--latency-primary);
+}
+
+.latency-quick-links .dashicons {
+    color: var(--latency-gray-500);
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+/* ==========================================================================
+   Shortcodes
+   ========================================================================== */
+.latency-shortcode-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.shortcode-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--latency-gray-100);
+}
+
+.shortcode-item:last-child {
+    border-bottom: none;
+}
+
+.shortcode-item code {
+    background: var(--latency-gray-100);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.shortcode-desc {
+    font-size: 12px;
+    color: var(--latency-gray-500);
+}
+
+/* ==========================================================================
+   Loading States
+   ========================================================================== */
+.latency-loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.latency-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin: -12px 0 0 -12px;
+    border: 3px solid var(--latency-gray-200);
+    border-top-color: var(--latency-primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ==========================================================================
+   Admin Bar Styles
+   ========================================================================== */
+#wpadminbar .latency-status-up::before {
+    content: '\f147';
+    color: var(--latency-success) !important;
+}
+
+#wpadminbar .latency-status-down::before {
+    content: '\f335';
+    color: var(--latency-danger) !important;
+}
+
+#wpadminbar .latency-status-unknown::before {
+    content: '\f534';
+    color: var(--latency-gray-500) !important;
+}
+
+/* ==========================================================================
+   Tools Page
+   ========================================================================== */
+.latency-global-tools h1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.latency-global-tools h1 .dashicons {
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    color: var(--latency-primary);
+}
+
+.latency-tools-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.latency-tool-card h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.latency-tool-card h2 .dashicons {
+    color: var(--latency-primary);
+}
+
+.latency-tool-form {
+    margin-bottom: 16px;
+}
+
+.latency-tool-form .form-row {
+    margin-bottom: 12px;
+}
+
+.latency-tool-form label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--latency-gray-700);
+}
+
+.latency-tool-form input[type="text"],
+.latency-tool-form input[type="url"],
+.latency-tool-form select {
+    width: 100%;
+    max-width: 100%;
+}
+
+.latency-tool-output {
+    background: var(--latency-gray-900);
+    color: #10b981;
+    padding: 16px;
+    border-radius: 6px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 12px;
+    line-height: 1.6;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.latency-tool-output.visible {
+    display: block;
+}
+
+.latency-tool-output.error {
+    color: #ef4444;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width: 782px) {
+    .latency-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .monitor-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .latency-tools-container {
+        grid-template-columns: 1fr;
+    }
+}
+

@@ -1,0 +1,268 @@
+/**
+ * Latency Global - Frontend Styles
+ *
+ * @package Latency_Global
+ */
+
+/* ==========================================================================
+   Uptime Badge
+   ========================================================================== */
+.latency-uptime-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+    border-radius: 20px;
+    text-decoration: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.latency-uptime-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-decoration: none !important;
+}
+
+.latency-uptime-badge .latency-badge-icon {
+    display: flex;
+    align-items: center;
+}
+
+.latency-uptime-badge .latency-badge-icon svg {
+    color: #10b981;
+}
+
+.latency-uptime-badge.good .latency-badge-icon svg {
+    color: #10b981;
+}
+
+.latency-uptime-badge.warning .latency-badge-icon svg {
+    color: #f59e0b;
+}
+
+.latency-uptime-badge.bad .latency-badge-icon svg {
+    color: #ef4444;
+}
+
+.latency-uptime-badge .latency-badge-text {
+    color: #fff;
+}
+
+.latency-uptime-badge .latency-badge-brand {
+    color: #9ca3af;
+    font-size: 10px;
+    padding-left: 6px;
+    border-left: 1px solid #374151;
+}
+
+/* ==========================================================================
+   Minimal Uptime
+   ========================================================================== */
+.latency-uptime-minimal {
+    font-weight: 600;
+    font-size: inherit;
+}
+
+.latency-uptime-minimal.good {
+    color: #10b981;
+}
+
+.latency-uptime-minimal.warning {
+    color: #f59e0b;
+}
+
+.latency-uptime-minimal.bad {
+    color: #ef4444;
+}
+
+/* ==========================================================================
+   Detailed Uptime
+   ========================================================================== */
+.latency-uptime-detailed {
+    display: inline-flex;
+    gap: 20px;
+    padding: 16px 24px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
+
+.latency-uptime-detailed .latency-stat {
+    text-align: center;
+}
+
+.latency-uptime-detailed .value {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+.latency-uptime-detailed .value.good {
+    color: #10b981;
+}
+
+.latency-uptime-detailed .value.warning {
+    color: #f59e0b;
+}
+
+.latency-uptime-detailed .value.bad {
+    color: #ef4444;
+}
+
+.latency-uptime-detailed .label {
+    display: block;
+    font-size: 11px;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ==========================================================================
+   Status Indicator
+   ========================================================================== */
+.latency-status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.latency-status-indicator .indicator-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: status-pulse 2s infinite;
+}
+
+.latency-status-indicator.status-up .indicator-dot {
+    background: #10b981;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+.latency-status-indicator.status-down .indicator-dot {
+    background: #ef4444;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+}
+
+@keyframes status-pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+.latency-status-indicator .indicator-text {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.latency-status-indicator.status-up .indicator-text {
+    color: #10b981;
+}
+
+.latency-status-indicator.status-down .indicator-text {
+    color: #ef4444;
+}
+
+/* ==========================================================================
+   Stats Display
+   ========================================================================== */
+.latency-stats-display {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.latency-stats-display.layout-horizontal {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.latency-stats-display.layout-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.latency-stats-display.layout-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 16px;
+}
+
+.latency-stats-display .latency-stat-item {
+    text-align: center;
+    padding: 12px;
+}
+
+.latency-stats-display.layout-vertical .latency-stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.latency-stats-display.layout-vertical .latency-stat-item:last-child {
+    border-bottom: none;
+}
+
+.latency-stats-display .stat-value {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.latency-stats-display .stat-value.uptime {
+    color: #10b981;
+}
+
+.latency-stats-display .stat-label {
+    display: block;
+    font-size: 11px;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+.latency-stats-display.layout-vertical .stat-label {
+    margin-top: 0;
+    order: -1;
+}
+
+/* ==========================================================================
+   Footer Badge
+   ========================================================================== */
+.latency-footer-badge {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+@media (max-width: 600px) {
+    .latency-footer-badge {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .latency-footer-badge .latency-badge-brand {
+        display: none;
+    }
+}
+
