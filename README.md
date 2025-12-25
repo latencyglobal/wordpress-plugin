@@ -14,6 +14,45 @@ Monitor your WordPress site's uptime and performance from 110+ global locations.
 * 📱 **Dashboard Widget** - See your site status right in WordPress admin
 * 🏷️ **Uptime Badge** - Display your uptime on your site with shortcodes
 
+**Screenshots**
+
+### 1. Plugin Settings Page
+
+Configure your API key and manage monitors directly from WordPress admin.
+
+![Plugin Settings](https://latency.global/screenshots/latency-global-wordpress-plugin-settings.png)
+
+### 2. Monitor Dashboard
+
+View uptime and latency statistics from 110+ global locations.
+
+![Monitor Dashboard](https://latency.global/screenshots/latency-global-dashboard.png)
+
+### 3. Detailed HTTPS Monitoring
+
+Expanded view showing SSL certificate details and connection timings.
+
+![HTTPS Monitoring Expanded](https://latency.global/screenshots/latency-global-https-expanded.png)
+
+### 4. Network Diagnostic Tools
+
+Built-in tools for ping, HTTP, and DNS diagnostics.
+
+![Network Tools](https://latency.global/screenshots/latency-global-wordpress-plugin-network-tools.png)
+
+### 5. Performance Graphs
+
+Historical latency data with detailed timing breakdowns.
+
+![Performance Graphs](https://latency.global/screenshots/latency-global-https-graph.png)
+
+### 6. Monitor Details
+
+Comprehensive monitor overview with real-time status and alerts.
+
+![Monitor Details](https://latency.global/screenshots/latency-global-https-monitor.png)
+
+
 **How It Works**
 
 1. Sign up for a Latency Global account at [latency.global](https://latency.global)
@@ -83,45 +122,6 @@ No personal data from your site visitors is collected or transmitted. Only your 
 3. Click "Create Token"
 4. Copy the token (it starts with `lat_`)
 5. Paste it in the plugin settings
-
-
-**Screenshots**
-
-### 1. Plugin Settings Page
-
-Configure your API key and manage monitors directly from WordPress admin.
-
-![Plugin Settings](https://latency.global/screenshots/latency-global-wordpress-plugin-settings.png)
-
-### 2. Monitor Dashboard
-
-View uptime and latency statistics from 110+ global locations.
-
-![Monitor Dashboard](https://latency.global/screenshots/latency-global-dashboard.png)
-
-### 3. Detailed HTTPS Monitoring
-
-Expanded view showing SSL certificate details and connection timings.
-
-![HTTPS Monitoring Expanded](https://latency.global/screenshots/latency-global-https-expanded.png)
-
-### 4. Network Diagnostic Tools
-
-Built-in tools for ping, HTTP, and DNS diagnostics.
-
-![Network Tools](https://latency.global/screenshots/latency-global-wordpress-plugin-network-tools.png)
-
-### 5. Performance Graphs
-
-Historical latency data with detailed timing breakdowns.
-
-![Performance Graphs](https://latency.global/screenshots/latency-global-https-graph.png)
-
-### 6. Monitor Details
-
-Comprehensive monitor overview with real-time status and alerts.
-
-![Monitor Details](https://latency.global/screenshots/latency-global-https-monitor.png)
 
 
 **Frequently Asked Questions**
