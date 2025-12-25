@@ -128,11 +128,41 @@ No. The plugin only runs in the WordPress admin area. No JavaScript or API calls
 
 **Screenshots**
 
-1. Plugin settings page with API configuration
-2. Monitor dashboard showing uptime and latency stats
-3. WordPress dashboard widget
-4. Network tools for diagnostics
-5. Uptime badge shortcode examples
+### 1. Plugin Settings Page
+
+Configure your API key and manage monitors directly from WordPress admin.
+
+![Plugin Settings](https://latency.global/screenshots/latency-global-wordpress-plugin-settings.png)
+
+### 2. Monitor Dashboard
+
+View uptime and latency statistics from 110+ global locations.
+
+![Monitor Dashboard](https://latency.global/screenshots/latency-global-dashboard.png)
+
+### 3. Detailed HTTPS Monitoring
+
+Expanded view showing SSL certificate details and connection timings.
+
+![HTTPS Monitoring Expanded](https://latency.global/screenshots/latency-global-https-expanded.png)
+
+### 4. Network Diagnostic Tools
+
+Built-in tools for ping, HTTP, and DNS diagnostics.
+
+![Network Tools](https://latency.global/screenshots/latency-global-wordpress-plugin-network-tools.png)
+
+### 5. Performance Graphs
+
+Historical latency data with detailed timing breakdowns.
+
+![Performance Graphs](https://latency.global/screenshots/latency-global-https-graph.png)
+
+### 6. Monitor Details
+
+Comprehensive monitor overview with real-time status and alerts.
+
+![Monitor Details](https://latency.global/screenshots/latency-global-https-monitor.png)
 
 
 **Changelog**
